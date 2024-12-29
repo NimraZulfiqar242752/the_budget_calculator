@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container mt-5">
+
+    <h1 class="text-center">Budget Calculator</h1>
+
+    <form id="budget-form">
+        <!-- Expense Categories -->
+        <div class="form-group">
+            <label for="rent">Rent:</label>
+            <input type="number" class="form-control" id="rent" placeholder="Enter Rent Amount">
+        </div>
+        <div class="form-group">
+            <label for="groceries">Groceries:</label>
+            <input type="number" class="form-control" id="groceries" placeholder="Enter Groceries Amount">
+        </div>
+        <div class="form-group">
+            <label for="car">Car Petrol:</label>
+            <input type="number" class="form-control" id="car" placeholder="Enter Car Petrol Amount">
+        </div>
+        <div class="form-group">
+            <label for="other">Other Expenses:</label>
+            <input type="number" class="form-control" id="other" placeholder="Enter Other Expenses">
+        </div>
+        
+        <!-- Calculate Button -->
+        <div class="text-center">
+            <button type="button" class="btn btn-primary mt-3" id="calculate-btn">Calculate</button>
+        </div>
+    </form>
+
+    <!-- Total Budget Result -->
+    <div class="text-center mt-3">
+        <h3>Total Budget: <span id="total-budget">0</span></h3>
+    </div>
+
+    <!-- Reset Button -->
+    <div class="text-center mt-3">
+        <button type="button" class="btn btn-warning" id="reset-btn">Reset</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>All rights belong to Nimra's Budget Calculation Team!</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

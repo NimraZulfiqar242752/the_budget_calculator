@@ -1,0 +1,149 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Hero Image (index.html) */
+.container.bg-danger-subtle {
+    background-image: url('../images/budget.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 60px 0;
+}
+
+/* Index Page Heading */
+h1.big-bold {
+    font-family: 'Bebas Neue', cursive;  /* Fun and bold font */
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    color: #FFC300;  /* taken from html colours site */
+    text-align: center;
+}
+
+/* For a Better Tomorrow Text */
+p.text-center {
+    font-family: 'Lobster', cursive; 
+    color: white;  
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #f39c12; /* Yellow color */
+    border-color: #f39c12;
+}
+
+.btn-primary:hover {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.btn-secondary {
+    background-color: #e74c3c;  /* Bright Red color */
+    border-color: #e74c3c;
+}
+
+.btn-secondary:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.btn-info {
+    background-color: #3498db; /* Blue color */
+    border-color: #3498db;
+}
+
+.btn-info:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Currency Page Pop-up */
+.currency-button {
+    position: relative;
+}
+
+.currency-button:hover::after {
+    content: "Choose your desired currency";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f39c12;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+/* Contact Page Icons and Footer */
+#contact-form .input-field {
+    width: 80%;
+    margin: 10px 0;
+}
+
+#send {
+    background-color: #e74c3c; /* Bright Red color */
+    border-color: #e74c3c;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#send:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.text-center .send-button {
+    margin-top: 15px;
+}
+
+/* Add Icons to Contact Page */
+#contact-form i {
+    font-size: 1.5rem;
+    color: #f39c12;
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Styling the Navbar for Contact Page */
+.navbar {
+    background-color: #f39c12;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e74c3c !important;
+}
+
+
